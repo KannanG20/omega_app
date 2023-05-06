@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "omega_app",
-    "slug": "omega_app",
+    "name": "omega",
+    "slug": "omega",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/bomb.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashh.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/bsicon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.spy.omega"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c54d0c74-8ba4-4df8-811c-66e891216fa4"
+      }
     }
   }
 }
